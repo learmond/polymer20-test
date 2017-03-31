@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Willowglen Systems Inc. copyright 2017
+-------------------------------------------------------------------------------
+
+Unisen Web Application README, built using Polymer 2.0
+See https://www.polymer-project.org/.
+
+The unisen web application uses the Polymer 2.0 library to leverage the latest
+browser technology, specifically, custom web components.
+
+Files:
+
+src/
+    - Custom Willowglen (wg) source files making up the Unisen Web App.
+data/
+    - Static such as the generated topology file.
+images/
+    - Image store directory.
+build/
+    - 'polymer build' command output. Contains the builds as configured in 
+      polymer.json
+    - NOTE: the 'bundle' option controls fragment bundling based on whether the
+      the server is an http/2 server. If it is, fragments should NOT be bundled,
+      otherwise, bundle the files.
+bower_components/
+    - The bower installed components used in our web app. (i.e. polymer library)
+      components.
+node_modules/
+    - The nodejs modules installed by npm.
+
+
+Build Process
+-------------
+

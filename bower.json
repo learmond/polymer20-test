@@ -1,0 +1,14 @@
+{
+  "name": "polymer 2.0 test",
+  "version": "0.0.0.0.0.1",
+  "authors": [
+    "The Learmonudes"
+  ],
+  "private": true,
+  "dependencies": {
+    "polymer": "polymer/polymer#^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.0.0"
+  }
+}
